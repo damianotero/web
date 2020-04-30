@@ -41,6 +41,6 @@ public class HomeController {
         emailService.sendSimpleMessage(name +"- Email:  "+ email, subject,message);
         log.info("Email controller called!");
 
-        return "index";
+        return "fragments/sent-message";
     }
 }

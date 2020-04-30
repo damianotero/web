@@ -115,3 +115,7 @@
   });
 
 })(jQuery);
+//
+//function showAlert() {
+//  alert("Thanks for contact!");
+//}
